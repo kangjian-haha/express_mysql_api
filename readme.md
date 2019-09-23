@@ -1,11 +1,20 @@
 # express_mysql_api 作业
+> 描述: nodejs作业. 用express框架连接mysql写几个基本接口(登录,注册,查成绩)
+
+## 配置数据库
+1. 打开`mysql`,建一个数据库`epress_mysql_api`
+2. 运行`epress_mysql_api.sql`
+> 打开 `/src/mysqlDB.js` 修改MySQL的配置
 ## 启动项目
 
 ```bash
-## 导依赖
+# 导依赖
 cnpm install
-## 启动项目
+
+# 启动项目
 cnpm start
+## 或
+node server.js
 ```
 
 ## API
@@ -86,4 +95,6 @@ token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdHVkZW50X2lkIjo5LCJpYXQiOjE1Njkx
 }
 ```
 
-### 
+> 作者: kangjian_haha
+> 
+> 学校: 广州番禺职业技术学院

@@ -20,11 +20,7 @@ coverage
 # nyc test coverage
 .nyc_output
 
-<<<<<<< HEAD
 # Grunt intermediate storage (https://gruntjs.com/creating-plugins#storing-task-files)
-=======
-# Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
->>>>>>> ec17279113a94e4f614ed404e3d5c852b6ae1e5f
 .grunt
 
 # Bower dependency directory (https://bower.io/)
@@ -87,4 +83,8 @@ typings/
 
 # next.js build output
 .next
+
+# http.test
+testApi.http
+
 >>>>>>> ec17279113a94e4f614ed404e3d5c852b6ae1e5f
