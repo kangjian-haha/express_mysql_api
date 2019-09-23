@@ -20,7 +20,11 @@ coverage
 # nyc test coverage
 .nyc_output
 
+<<<<<<< HEAD
 # Grunt intermediate storage (https://gruntjs.com/creating-plugins#storing-task-files)
+=======
+# Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
+>>>>>>> ec17279113a94e4f614ed404e3d5c852b6ae1e5f
 .grunt
 
 # Bower dependency directory (https://bower.io/)
@@ -56,6 +60,7 @@ typings/
 
 # dotenv environment variables file
 .env
+<<<<<<< HEAD
 .env.test
 
 # parcel-bundler cache (https://parceljs.org/)
@@ -78,3 +83,8 @@ typings/
 
 # DynamoDB Local files
 .dynamodb/
+=======
+
+# next.js build output
+.next
+>>>>>>> ec17279113a94e4f614ed404e3d5c852b6ae1e5f
